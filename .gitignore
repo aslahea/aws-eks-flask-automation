@@ -1,0 +1,17 @@
+# --- Terraform Junk (MUST IGNORE) ---
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# --- Python Junk ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
